@@ -1,0 +1,19 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/mixins';
+
+.header {
+  position: fixed;
+  @include flex-center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  z-index: 3;
+  
+  .header-wrapper {
+    display: flex;
+    max-width: $content-width;
+    // width: 100%;
+  }
+}
