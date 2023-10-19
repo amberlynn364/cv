@@ -1,0 +1,28 @@
+export const hardSkills: string[] = [
+  'JavaScript, TypeScript',
+  'React, Redux toolkit',
+  'Material UI',
+  'REST API',
+  'Jest',
+  'SPA',
+  'HTML5',
+  'CSS3, SASS',
+  'BEM',
+  'Webpack, Vite',
+  'Git',
+  'Figma',
+];
+export const softSkills: string[] = [
+  'Analytical Thinking',
+  'Problem solving',
+  'Communication',
+  'Organization',
+  'Attention to detail',
+  'Adaptability',
+  'Self-Motivation',
+  'Quick Learning',
+  'Time Management',
+  'Stress Management',
+  'Constructive Criticism',
+  'Creativity',
+];

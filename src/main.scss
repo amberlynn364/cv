@@ -1,6 +1,39 @@
 @import "./sass/base/normalize";
 @import "./sass/base/typography";
+@import "./sass/utils/variables";
+@import "./sass/utils/mixins";
+
+* {
+box-sizing: border-box;
+margin: 0;
+
+}
+html,
+body {
+  height: 100%;
+}
 
 body {
   font-family: Ubuntu, sans-serif;
+  font-size: 1.4rem;
+  color: $text-color;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }

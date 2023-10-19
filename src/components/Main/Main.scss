@@ -1,0 +1,8 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/mixins';
+
+.main-wrapper {
+  padding-top: 90px;
+  max-width: $content-width;
+  width: 100%;
+}

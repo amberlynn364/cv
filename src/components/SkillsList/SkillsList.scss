@@ -1,0 +1,27 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/mixins';
+
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-height: 140px;
+  padding: 0;
+  list-style: none;
+
+  .skills__item {
+    width: 250px;
+    // min-width: 150px;
+
+    &::before {
+      content: "<";
+      color: $text-color-secondary;
+      
+    }
+    &::after {
+      content: ">";
+      color: $text-color-secondary;
+    }
+  }
+}
