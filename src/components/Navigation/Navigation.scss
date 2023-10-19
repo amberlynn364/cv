@@ -1,0 +1,17 @@
+@import '../../sass/utils/variables';
+
+.navigation {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 20px 0;
+
+  .navigation__item {
+
+    .navigation__link {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+}
