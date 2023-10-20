@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import { useState } from 'react';
 import { TabContext, TabPanel } from '@mui/lab';
-import { hardSkills, softSkills } from '../../data/skills';
+import { hardSkills, softSkills } from '../../../data/skills';
 import './SkillsTabs.scss';
 import SkillsList from '../SkillsList/SkillsList';
 import { StyledTab, StyledTabs } from './SkillsTabsUtility';

@@ -1,6 +1,6 @@
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
-import SkillsTabs from '../SkillsTabs/SkillsTabs';
+import SkillsTabs from './SkillsTabs/SkillsTabs';
 import './SkillsSection.scss';
 import RouterPaths from '../../router/router-types';
 
