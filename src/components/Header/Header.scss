@@ -5,7 +5,8 @@
   position: fixed;
   @include flex-center;
   padding: 10px 20px;
-  color: #fff;
+  color: $color-white;
+  background-color: $color-white;
   text-align: center;
   width: 100%;
   z-index: 3;

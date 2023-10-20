@@ -2,20 +2,10 @@
 @import '../../sass/utils/mixins';
 
 .skills {
+  display: flex;
+  flex-direction: column;
   padding: 80px 100px;
   border-radius: 10px;
   background: linear-gradient(90deg, rgba(9, 28, 96, 1) 0%, rgba(4, 60, 4, 1) 100%);
-  color: $text-color-white;
-
-
-  .skills-wrapper {
-    display: flex;
-    flex-direction: column;
-
-      .subtitle {
-        color: $text-color-secondary;
-        font-size: 1.6rem;
-        font-weight: 900;
-      }
-  }
+  color: $color-white;
 }

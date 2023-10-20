@@ -35,7 +35,7 @@ export const StyledTab = styled((props: StyledTabProps) => (
 ))(({ theme }) => ({
   textTransform: 'none',
   fontWeight: theme.typography.fontWeightBold,
-  fontSize: theme.typography.pxToRem(38),
+  fontSize: theme.typography.pxToRem(32),
   marginRight: theme.spacing(3),
   padding: 0,
   paddingTop: '15px',
