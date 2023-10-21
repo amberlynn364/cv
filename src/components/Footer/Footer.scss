@@ -1,0 +1,10 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/mixins';
+
+.footer {
+  display: flex;
+  max-width: $content-width;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 100px;
+}
