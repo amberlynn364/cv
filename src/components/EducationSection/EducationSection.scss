@@ -1,12 +1,7 @@
 @import '../../sass/utils/variables';
 @import '../../sass/utils/mixins';
 
-.projects {
+.education {
+  max-width: $content-width;
   padding: $section-padding;
-
-  .projects__wrapper {
-    @include flex-center;
-    padding-top: 30px;
-  }
 }
-
