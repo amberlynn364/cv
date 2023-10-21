@@ -7,11 +7,32 @@
   margin: 0;
   padding: 20px 0;
 
-  .navigation__item {
 
-    .navigation__link {
-      color: $text-color;
-      text-decoration: none;
+  .navigation__link {
+    position: relative;
+    color: $text-color;
+    text-decoration: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      right: 0;
+      height: 3px;
+      bottom: -15px;
+      background-color: $text-color-secondary;
+      transition: width ease-in-out 1s;
+    }
+
+    &:hover {
+      &::before {
+        width: 100%;
+        left: 0;
+      }
+    }
+
+    &:active {
+      color: #0f467d
     }
   }
 }

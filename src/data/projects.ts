@@ -30,7 +30,7 @@ const projects: IProjects[] = [
     id: 3,
     link: 'https://amberlynn364.github.io/Minesweeper/minesweeper/',
     img: 'minesweeper.jpg',
-    stack: 'JavaScript',
+    stack: 'JavaScript, Sass',
     title: 'Minesweeper',
     description:
       'A clone of the classic "Minesweeper" game built using vanilla JavaScript. The game offers a real challenge for your logical skills.',

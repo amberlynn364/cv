@@ -2,8 +2,8 @@ const navigationLinks: string[] = [
   'About me',
   'Skills',
   'Projects',
-  'Languages',
   'Education',
+  'Languages',
   'Contacts',
 ];
 

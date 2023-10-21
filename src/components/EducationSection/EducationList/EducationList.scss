@@ -36,9 +36,21 @@
     .education__company,
     .education__status {
       color: inherit;
+      
+      a {
+        transition: color 0.3s;
+      }
 
       :visited {
         color: inherit;
+      }
+
+      :hover {
+        color: $text-color-secondary;
+      }
+
+      :active {
+        color: $text-color-active;
       }
     }
   }

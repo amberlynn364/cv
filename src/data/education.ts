@@ -43,7 +43,7 @@ const educations: IEducations[] = [
     certificateLink: '',
     degree: 'Engineer Ecologist',
     company: 'Penza State University of Architecture and Construction',
-    companyLink: '',
+    companyLink: 'https://www.pguas.ru/',
   },
 ];
 
