@@ -1,0 +1,7 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/mixins';
+
+.languages {
+  max-width: $content-width;
+  padding: 50px 100px 80px 100px;
+}

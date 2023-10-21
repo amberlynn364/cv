@@ -1,4 +1,5 @@
 import EducationSection from '../EducationSection/EducationSection';
+import LanguagesSection from '../LanguageSection/LanguageSection';
 import ProjectSection from '../ProjectSection/ProjectSection';
 import SkillsSection from '../SkillsSection/SkillsSection';
 import './Main.scss';
@@ -10,6 +11,7 @@ export default function Main() {
         <SkillsSection />
         <ProjectSection />
         <EducationSection />
+        <LanguagesSection />
       </div>
     </main>
   );

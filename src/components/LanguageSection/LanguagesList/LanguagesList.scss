@@ -1,0 +1,45 @@
+@import '../../../sass/utils/variables';
+@import '../../../sass/utils/mixins';
+
+.languages__list {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 185px;
+  padding-top: 30px;
+}
+.languages__title {
+  position: relative;
+  padding: 0;
+  padding-top: 20px;
+  font-size: 1.5rem;
+  line-height: 2.5;
+  font-weight: bold;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 10px;
+    background-color: $text-color-secondary;
+    top: 0;
+  }
+}
+.languages__level {
+  color: inherit;
+
+  a {
+    transition: color 0.3s;
+  }
+
+  :visited {
+    color: inherit;
+  }
+
+  :hover {
+    color: $text-color-secondary;
+  }
+
+  :active {
+    color: #970a08
+  }
+}
