@@ -25,6 +25,10 @@ body {
   background-color: $bg-color;
 }
 
+h1, h2, h3, h4 {
+  font-family: Poppins, sans-serif;
+}
+
 #root {
   display: flex;
   align-items: center;

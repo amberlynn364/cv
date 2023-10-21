@@ -31,5 +31,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'jsx-a11y/anchor-is-valid': 0,
+    'jsx-a11y/img-redundant-alt': 0,
+    'react/no-array-index-key': 0,
   },
 };
