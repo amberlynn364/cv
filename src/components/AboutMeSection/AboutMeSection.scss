@@ -1,0 +1,31 @@
+@import '../../sass/utils/variables';
+@import '../../sass/utils/mixins';
+
+.about-me {
+  @include flex-center;
+  flex-direction: column;
+  gap: 20px;
+  padding: $section-padding;
+}
+
+.about-me__img {
+  align-self: center;
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.highlighted {
+  color: $text-color-secondary;
+}
+
+.about-me-job {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.about-me-buttons-wrapper {
+  display: flex;
+  gap: 20px;
+}

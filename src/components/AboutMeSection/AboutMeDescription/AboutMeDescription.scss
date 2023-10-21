@@ -1,0 +1,20 @@
+@import '../../../sass/utils/mixins';
+@import '../../../sass/utils/variables';
+
+.about-me-description {
+  @include flex-column-gap(10px);
+  padding-top: 40px;
+
+  .description__item {
+    letter-spacing: 0.5px;
+    &::before {
+      content: '<';
+      color: $text-color-secondary;
+    }
+
+    &::after {
+      content: '/>';
+      color: $text-color-secondary;
+    }
+  }
+}
