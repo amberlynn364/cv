@@ -13,6 +13,7 @@ export const StyledTabs = styled((props: StyledTabsProps) => (
   <Tabs
     {...props}
     TabIndicatorProps={{ children: <span className="MuiTabs-indicatorSpan" /> }}
+    variant="scrollable"
   />
 ))({
   '& .MuiTabs-indicator': {

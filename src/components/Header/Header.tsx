@@ -11,9 +11,7 @@ export default function Header() {
             Port<span className="header-title-span">folio</span>
           </h1>
         </div>
-        <nav className="header-nav">
-          <Navigation />
-        </nav>
+        <Navigation />
       </div>
     </header>
   );

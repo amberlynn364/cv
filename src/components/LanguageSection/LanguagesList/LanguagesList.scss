@@ -6,6 +6,11 @@
   flex-flow: column wrap;
   max-height: 185px;
   padding-top: 30px;
+
+  @media screen and (max-width: 390px) {
+    display: block;
+    columns: 2;
+  }
 }
 .languages__title {
   position: relative;

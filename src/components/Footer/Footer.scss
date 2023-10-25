@@ -7,4 +7,18 @@
   justify-content: space-between;
   width: 100%;
   padding: 40px 100px;
+
+  @media screen and (max-width: 1040px) {
+    padding: 50px;
+  }
+  @media screen and (max-width: 900px) {
+    padding: 50px 10px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
 }

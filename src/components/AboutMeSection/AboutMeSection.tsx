@@ -8,7 +8,7 @@ export default function AboutMeSection() {
   return (
     <section id="about-me" className="about-me">
       <img src="my-photo.jpg" className="about-me__img" alt="my photo" />
-      <h2>
+      <h2 className="about-me__name">
         Hi 👋, I&apos;m <span className="highlighted">Ivan</span>,
       </h2>
       <h2 className="about-me-job">Front-End Developer</h2>

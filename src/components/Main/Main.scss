@@ -2,7 +2,16 @@
 @import '../../sass/utils/mixins';
 
 .main-wrapper {
-  padding-top: 90px;
+  @include flex-center;
+  flex-direction: column;
+  padding: 90px 10px 0 10px;
   max-width: $content-width;
   width: 100%;
+
+  @media (max-width: 1255px) {
+    width: 100%;
+  }
+  @media (max-width: 900px) {
+    padding: 105px 10px 10px 10px;
+  }
 }

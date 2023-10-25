@@ -6,6 +6,13 @@
   flex-direction: column;
   gap: 20px;
   padding: $section-padding;
+
+  @media (max-width: 1050px) {
+    padding: 50px 20px;
+  }
+  @media (max-width: 370px) {
+    padding: 10px;
+  }
 }
 
 .about-me__img {
@@ -14,18 +21,92 @@
   height: 325px;
   object-fit: cover;
   border-radius: 50%;
+  position: relative;
+  align-self: center;
+
+  @media (max-width: 400px) {
+    width: 295px;
+    height: 295px;
+  }
+  @media (max-width: 360px) {
+    width: 255px;
+    height: 255px;
+  }
 }
 
 .highlighted {
   color: $text-color-secondary;
 }
 
+.about-me__name {
+  @media (max-width: 700px) {
+    font-size: 2rem;
+  }
+}
+
 .about-me-job {
   font-size: 4.5rem;
   font-weight: bold;
+
+  @media (max-width: 780px) {
+    font-size: 4rem;
+  }
+  @media (max-width: 700px) {
+    font-size: 3.5rem;
+  }
+  @media (max-width: 615px) {
+    text-align: center;
+  }
+  @media (max-width: 350px) {
+    font-size: 3rem;
+  }
 }
 
 .about-me-buttons-wrapper {
   display: flex;
   gap: 20px;
 }
+
+.box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: -10px 140px;
+    background-color: $text-color-secondary;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+  }
+  
+  &:hover {
+    &::before {
+      inset: -20px 0;
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: $text-color;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+
+} 

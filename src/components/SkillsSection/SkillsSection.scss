@@ -8,4 +8,14 @@
   border-radius: 10px;
   background: linear-gradient(90deg, rgba(9, 28, 96, 1) 0%, rgba(4, 60, 4, 1) 100%);
   color: $color-white;
+
+  @media (max-width: 710px) {
+    padding: 50px;
+  }
+  @media (max-width: 460px) {
+    padding: 30px;
+  }
+  @media (max-width: 400px) {
+    padding: 30px 15px;
+  }
 }

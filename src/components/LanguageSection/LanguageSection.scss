@@ -4,4 +4,12 @@
 .languages {
   max-width: $content-width;
   padding: 50px 100px 80px 100px;
+  align-self: stretch;
+
+  @media screen and (max-width: 1040px) {
+    padding: 50px;
+  }
+  @media screen and (max-width: 900px) {
+    padding: 50px 10px;
+  }
 }

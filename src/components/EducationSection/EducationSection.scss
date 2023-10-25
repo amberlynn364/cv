@@ -3,7 +3,15 @@
 
 .education {
   max-width: $content-width;
+  width: 100%;
   padding: $section-padding;
+
+  @media screen and (max-width:1040px) {
+    padding: 50px;
+  }
+  @media screen and (max-width:900px) {
+    padding: 50px 10px;
+  }
 }
 
 .books-wrapper {
